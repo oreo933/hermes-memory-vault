@@ -1,0 +1,7 @@
+mcp_servers:
+  local_memory:
+    command: python3
+    args:
+      - /root/hermes-memory-vault/src/local_memory_server.py
+    timeout: 30
+    connect_timeout: 20

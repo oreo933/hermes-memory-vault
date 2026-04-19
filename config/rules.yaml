@@ -1,0 +1,13 @@
+version: 1
+project: Hermes Memory Vault
+categories:
+  - personal
+  - work
+  - product
+  - temporary
+guidelines:
+  - Keep the project lightweight and local-first.
+  - Store raw notes as Markdown and search via SQLite FTS5.
+  - Expose operations through MCP tools.
+  - Avoid heavy dependencies unless they become necessary.
+  - Prefer human-readable notes and simple maintenance.
