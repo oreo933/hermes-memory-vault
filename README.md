@@ -14,6 +14,7 @@
 - 面向 Hermes Agent 的本地外置记忆层
 - 适合轻量宿主机部署
 - 以可读、可检索、可维护为核心设计目标
+- 提供可直接 fork 和二次开发的模板
 - 预留从轻量方案升级到更完整记忆系统的路径
 
 ### 设计目标
@@ -64,10 +65,12 @@ mcp_servers:
   local_memory:
     command: python3
     args:
-      - /root/hermes-memory-vault/src/local_memory_server.py
+      - /path/to/hermes-memory-vault/src/local_memory_server.py
     timeout: 30
     connect_timeout: 20
 ```
+
+> 如果你把仓库克隆到自己的目录，请将 `/path/to/hermes-memory-vault/` 替换为实际路径。
 
 ### 使用场景
 - 记录长期偏好与固定习惯
@@ -110,6 +113,7 @@ It combines **Markdown + SQLite FTS5 + MCP** to provide a persistent, searchable
 - A local external memory layer for Hermes Agent
 - Designed for lightweight host machines
 - Built around readability, searchability, and maintainability
+- Provides a ready-to-fork template for further development
 - Leaves room for future expansion into a richer memory system
 
 ### Design Goals
@@ -160,10 +164,12 @@ mcp_servers:
   local_memory:
     command: python3
     args:
-      - /root/hermes-memory-vault/src/local_memory_server.py
+      - /path/to/hermes-memory-vault/src/local_memory_server.py
     timeout: 30
     connect_timeout: 20
 ```
+
+> Replace `/path/to/hermes-memory-vault/` with the actual local path of the repository.
 
 ### Use Cases
 - Persisting long-term preferences and recurring habits

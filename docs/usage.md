@@ -3,6 +3,9 @@
 ## 1. Start the MCP server
 The server is launched by Hermes through the `mcp_servers.local_memory` entry in `~/.hermes/config.yaml`.
 
+Example path:
+- `/path/to/hermes-memory-vault/src/local_memory_server.py`
+
 ## 2. Available tools
 - `memory_init`
 - `memory_add`
