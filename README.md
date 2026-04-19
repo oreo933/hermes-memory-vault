@@ -10,6 +10,8 @@
 
 它通过 **Markdown + SQLite FTS5 + MCP** 的组合，为智能体提供可持续增长、可检索、可维护的长期记忆层。
 
+这不是一个“概念仓库”，而是一套已经落地、已经跑通、并且适合继续扩展的 **本地记忆基础设施**。
+
 ### 项目定位
 - 面向 Hermes Agent 的本地外置记忆层
 - 适合轻量宿主机部署
@@ -23,6 +25,12 @@
 - **可检索性**：SQLite FTS5 提供本地全文检索
 - **可扩展性**：通过 MCP 暴露统一工具接口，便于后续接入更多能力
 - **Hermes 友好**：针对 Hermes Agent 的本地运行场景设计
+
+### 为什么这个项目值得关注
+- 它把“记忆”从聊天记录里拆出来，变成真正可复用的资产
+- 它兼顾了**人能读懂**和**机器能调用**两种需求
+- 它不依赖重型基础设施，却保留了后续升级空间
+- 它适合做成个人可持续使用的 AI 记忆中枢
 
 ### 主要特性
 - 本地 Markdown 记忆笔记
@@ -109,6 +117,8 @@ MIT
 
 It combines **Markdown + SQLite FTS5 + MCP** to provide a persistent, searchable, and maintainable long-term memory layer for agents.
 
+This is not a proof-of-concept toy. It is a working local memory infrastructure that is already wired up and ready to be extended.
+
 ### Project Positioning
 - A local external memory layer for Hermes Agent
 - Designed for lightweight host machines
@@ -122,6 +132,12 @@ It combines **Markdown + SQLite FTS5 + MCP** to provide a persistent, searchable
 - **Searchable**: SQLite FTS5 enables local full-text search
 - **Extensible**: MCP exposes a unified tool interface for future integrations
 - **Hermes-friendly**: tailored for Hermes Agent local deployment scenarios
+
+### Why this project stands out
+- It separates memory from chat history and turns it into a reusable asset
+- It balances human readability with machine accessibility
+- It avoids heavy infrastructure while preserving upgrade headroom
+- It is suitable as a durable personal AI memory hub
 
 ### Key Features
 - Local Markdown memory notes
